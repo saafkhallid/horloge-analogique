@@ -10,6 +10,13 @@
 .clockbox,
 #clock {
     width: 100%;
+
+
+
+     /* transform: translateX(-50%) rotate(180deg);
+    position: relative; */
+   
+
 }
 
 /* Clock styles */
@@ -28,6 +35,8 @@
     stroke: #000;
     stroke-width: 9;
     stroke-miterlimit: 10;
+
+    /* color: rgb(255, 38, 0); */
 }
 
 .hour-arm {
@@ -35,6 +44,14 @@
     stroke: #000;
     stroke-width: 17;
     stroke-miterlimit: 10;
+
+
+
+    position: absolute;
+    /* left: 50%;
+    top: 50%; */
+    /* transform-origin: 50% 0; */
+
 }
 
 .minute-arm {
@@ -42,6 +59,13 @@
     stroke: #000;
     stroke-width: 11;
     stroke-miterlimit: 10;
+
+
+    /* position: absolute; */
+    /* left: 50%;
+    top: 50%; */
+    /* transform-origin: 50% 0; */
+
 }
 
 .second-arm {
@@ -49,6 +73,13 @@
     stroke: #000;
     stroke-width: 4;
     stroke-miterlimit: 10;
+
+
+    /* position: absolute; */
+    /* left: 50%;
+    top: 50%; */
+    /* transform-origin: 50% 0; */
+
 }
 
 /* Transparent box ensuring arms center properly. */
@@ -63,4 +94,6 @@
 #second {
     transform-origin: 300px 300px;
     transition: transform .5s ease-in-out;
+   
+   
 }
